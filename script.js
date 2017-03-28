@@ -53,7 +53,7 @@ function streetFighterSelection(fighters, position, moves){
   var menu = {
     x: position[0],
     y: position[1],
-    up: function(){ this.y = 0},
+    up: function(){ this.y = 0 },
     down: function(){ this.y = 1 },
     left: function(){ this.x = this.x ? this.x - 1 : 5 },
     right: function(){ this.x = this.x == 5 ? 0 : this.x + 1 }
