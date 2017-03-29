@@ -30,7 +30,7 @@ function streetFighterSelection(fighters, position, moves){
 function streetFighterSelection(fighters, position, moves){
   var x = position[0]
   var y = position[1]
-  moves.reduce(function(acc, curr){
+  return moves.reduce(function(acc, curr){
     switch(move){
       case "up":
         y = 0
